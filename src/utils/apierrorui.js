@@ -13,8 +13,8 @@ class ApiError extends Error {
    this.success = false
    this.date = null
 
-   if(statch){
-         this.statch = statch
+   if(stack){
+         this.statch = stack
    }else
          {
             this.captuerStatchTrach(this, this.constructure)
